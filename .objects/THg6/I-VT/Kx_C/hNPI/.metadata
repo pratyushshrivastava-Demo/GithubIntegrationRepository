@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Total for the device - 2nd Device",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "hNPIiZp5DkaaCfBbEyzMHA",
+  "Reference": "eC9NMaUDjESD5xJt_A5r6g/hNPIiZp5DkaaCfBbEyzMHA",
+  "ParentRef": "eC9NMaUDjESD5xJt_A5r6g/Kx_CDua8t0-KVamkkCrw4Q",
+  "Created": "2026-01-10T13:59:44.2467572Z",
+  "Updated": "2026-01-10T13:59:44.2467572Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

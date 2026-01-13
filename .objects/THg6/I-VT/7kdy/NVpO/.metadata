@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Total for the device",
+  "Type": "Element",
+  "Id": "NVpOO1XRaEW0noXi5I42bg",
+  "Reference": "eC9NMaUDjESD5xJt_A5r6g/NVpOO1XRaEW0noXi5I42bg",
+  "ParentRef": "eC9NMaUDjESD5xJt_A5r6g/7kdyTtqFrUuKXWsrqA0FsA",
+  "Created": "2026-01-11T04:42:21.3533075Z",
+  "Updated": "2026-01-11T04:42:21.3533075Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

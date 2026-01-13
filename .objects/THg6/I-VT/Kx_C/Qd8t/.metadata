@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Total for the device - 1st device",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "Qd8tHMb3L0CreHl2_gBCZg",
+  "Reference": "eC9NMaUDjESD5xJt_A5r6g/Qd8tHMb3L0CreHl2_gBCZg",
+  "ParentRef": "eC9NMaUDjESD5xJt_A5r6g/Kx_CDua8t0-KVamkkCrw4Q",
+  "Created": "2026-01-10T13:59:44.0176033Z",
+  "Updated": "2026-01-10T13:59:44.0176033Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

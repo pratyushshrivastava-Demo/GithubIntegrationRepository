@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5sWGoBGL3E2sI0gmvT-T2Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="orange.pl" DesignTimeRectangle="979, 881, 390, 60" DesignTimeScaleFactor="1.5" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='didomi-notice-agree-button' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='didomi-notice-agree-button' tag='BUTTON' type='' class='didomi-components-button didomi-button didomi-dismiss-button didomi-components-button--color didomi-button-highlight highlight-button' aaname='Zaakceptuj wszystkie' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Zaakceptuj wszystkie' /&gt;" Guid="74ca32c8-f6f7-485f-a11b-ca28ec03482a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Internet, mobile subscription, phones, television | Orange Polska' /&gt;" SearchSteps="FuzzySelector" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1059, 898, 229, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='didomi-notice-agree-button' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='didomi-notice-agree-button' tag='SPAN' type='' class='' aaname='Zaakceptuj wszystkie' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Zaakceptuj wszystkie' /&gt;" Guid="cdc33a1a-2a5d-4ec0-beee-2667f703ca97" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="454aba401304ca1594b8737a0595a337.png" xmlns="">05WeVfXuYk02E5o28j6rlLg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

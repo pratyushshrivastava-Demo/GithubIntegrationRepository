@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MqKYCouMCkCh2dsTUU6Ugg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="orange.pl/checkout/B2C/main/CONFIRM_CART_STEP" DesignTimeRectangle="219, 673, 322, 33" DesignTimeScaleFactor="1.5" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;h2&amp;gt;font&amp;gt;font' isleaf='1' parentid='app-root' tag='FONT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' isleaf='1' parentid='app-root' tag='FONT' class='' aaname='Subscription + telephone' matching:isleaf='fuzzy' fuzzylevel:isleaf='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Subscription + telephone' /&gt;" Guid="4b46e29d-061d-4000-b251-d86a69fa6db5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Home internet, mobile subscription, TV | Orange Polska' /&gt;" SearchSteps="Selector" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="eeba085d9d980e7362d662af950fbdbf.png" xmlns="">0SJWW4MCY8UanyqGZK5lM0A</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

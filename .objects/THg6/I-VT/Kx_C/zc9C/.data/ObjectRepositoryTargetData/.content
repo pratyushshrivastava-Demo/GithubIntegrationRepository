@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="I89j2QYkDU2Es3LIBBozSw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="orange.pl/zobacz/upsell/B2C/271f043f-e569-4fb4-95f7-7b3a414c06c6.U_nQYEehbbmSs2XPYW1JNjOy5kAvam7F4SWY3VqQWQlT5uQaxCwwxNx5Lkcufp-sjl-MheunxF6rGwfuBOKzgV9I2oHvwUInVnCONMbmql0=/CONFIGURE_SERVICES_FOR_OFFER_WITH_DEVICE_STEP" DesignTimeRectangle="1653, 1041, 225, 60" DesignTimeScaleFactor="1.5" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Go to cart' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Go to cart' tag='BUTTON' type='button' class='flex justify-center items-center px-4 h-8 min-w-[150px] min-h-8 only-mobile:w-full text-size-14-bold text-white bg-orange-dark hover:cursor-pointer disabled:bg-chrome disabled:pointer-events-none' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Go to cart' /&gt;" Guid="ae7d8b4a-c4c9-48e2-a699-5ed4f7d31f86" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Home internet, mobile subscription, TV | Orange Polska' /&gt;" SearchSteps="Selector" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="607675a97fd50ffe385f5fadd2a32f1b.png" xmlns="">0oMUxBfbWx0Ov5w-keRc6Rw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

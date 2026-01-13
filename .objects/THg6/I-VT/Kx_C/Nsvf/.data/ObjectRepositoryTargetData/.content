@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="i-_9eBZVnEOtTGYOMeuohg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="orange.pl/checkout/B2C/main/CONFIRM_CART_STEP" DesignTimeRectangle="1234, 806, 146, 69" DesignTimeScaleFactor="1.5" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Delete' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Delete' class='group/button items-center justify-center font-700 motion-safe:transition-all relative flex w-full px-6 rounded-lg text-base py-3 outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand bg-brand text-on-brand hover:bg-brand-hovered disabled:bg-disabled disabled:text-disable pressed:bg-brand-pressed' tag='BUTTON' type='button' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Delete' /&gt;" Guid="003be041-44fd-4e22-8bd4-01900905cc5f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Home internet, mobile subscription, TV | Orange Polska' /&gt;" SearchSteps="Selector" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="f9f3c0bd6a7eff4700282d42d5169024.png" xmlns="">0W0XS9MyCDkaN5UZi0Nb5jw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

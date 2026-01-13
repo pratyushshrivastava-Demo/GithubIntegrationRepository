@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Chrome mobile subscription,Orange Polska",
+  "Type": "App",
+  "Id": "THg6WgZmukO4V0EPGhnmeA",
+  "Reference": "eC9NMaUDjESD5xJt_A5r6g/THg6WgZmukO4V0EPGhnmeA",
+  "Created": "2026-01-09T06:31:17.2362939Z",
+  "Updated": "2026-01-10T13:59:43.9239583Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

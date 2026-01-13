@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="e08_jEqvtU-MlBRd0b_0sA" Reference="eC9NMaUDjESD5xJt_A5r6g/oKcVkL-Al0Ckqxn29mpYEw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="orange.pl/esklep/telefony-i-urzadzenia" DesignTimeRectangle="1486, 877, 112, 22" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='SPAN' class='text-size-16-bold' /&gt;" Guid="7341768e-d858-4941-8042-1ceca0dab225" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Telefony i urządzenia w abonamencie lub bez umowy. | Sklep Orange Polska' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="66b844c93f9939ad625270f06ca34da1.png" xmlns="">0eOb7iFTSVk611kxUl_0ktA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Smartphones with subscr…",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "3gzBf5dr20iPdSI4R__kAQ",
+  "Reference": "eC9NMaUDjESD5xJt_A5r6g/3gzBf5dr20iPdSI4R__kAQ",
+  "ParentRef": "eC9NMaUDjESD5xJt_A5r6g/Kx_CDua8t0-KVamkkCrw4Q",
+  "Created": "2026-01-09T06:34:03.1336961Z",
+  "Updated": "2026-01-09T06:34:03.1336961Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

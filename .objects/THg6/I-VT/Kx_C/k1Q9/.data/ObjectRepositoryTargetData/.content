@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8wnqcVSuYEaTzl0KpyJLbA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="orange.pl" DesignTimeRectangle="574, 549, 795, 39" DesignTimeScaleFactor="1.5" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H2' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H2' type='' class='' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="5af3e872-07bf-4ff7-9360-7c8d9d44a848" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Internet, mobile subscription, phones, television | Orange Polska' /&gt;" SearchSteps="Selector" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="01ec9aa57dc4530a4c3f7923fab1ed9b.png" xmlns="">01zE0SQJkgU6CoaW3xNHm1w</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

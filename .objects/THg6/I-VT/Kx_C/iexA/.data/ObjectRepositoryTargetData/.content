@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ieZZPr2CE0uKJ5KzLURwtQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="orange.pl/esklep/smartfony" DesignTimeRectangle="763, 669, 300, 68" DesignTimeScaleFactor="1.5" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='24 months' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='24 months' tag='BUTTON' type='button' class='flex relative h-full min-h-9 w-full from-tablet:w-auto from-lg-desktop:min-w-[200px] from-tablet:flex-1 px-2 items-center justify-center text-size-12-bold text-center text-white bg-black rounded transition-colors cursor-pointer border-orange-dark border-2' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='24 months' /&gt;" Guid="d39fa8e7-9004-4a38-811d-e1b4d0014cef" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Smartphones with or without a contract. | Orange Polska Store' /&gt;" SearchSteps="Selector" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="fa2a52bb3d1fbff3ced4d12863496d84.png" xmlns="">0_RUuHv5hHUazlKfNdFkb-A</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

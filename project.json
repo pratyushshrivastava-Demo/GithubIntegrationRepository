@@ -1,0 +1,71 @@
+{
+  "name": "OrangePolandDEMO",
+  "projectId": "918537be-f94c-4917-b7c6-80696dc9af2c",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[25.10.2]",
+    "UiPath.Testing.Activities": "[25.10.0]",
+    "UiPath.UIAutomation.Activities": "[25.10.16]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "25.10.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "abdf20d0-c2f2-438d-ac09-dd616d9e3f25",
+        "testCaseType": "TestCase",
+        "fileName": "Orange Add Clear Cart TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "60f93de8-72e3-47be-a4de-8b42fab6fd27",
+        "testCaseType": "TestCase",
+        "fileName": "Orange Add Clear Cart Agentic.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f2fc06f5-d88b-4530-9032-6cad80b98535",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "FindMaxPrice.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

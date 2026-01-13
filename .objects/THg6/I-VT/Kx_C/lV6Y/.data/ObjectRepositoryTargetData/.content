@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OjgfJPGNnkK_WzeDC6xrhg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="orange.pl/checkout/B2C/main/CONFIRM_CART_STEP" DesignTimeRectangle="540, 688, 825, 39" DesignTimeScaleFactor="1.5" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;h2' tag='H2' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='H2' class='font-700 text-lg' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="5b2c9efa-97f0-4aa0-8ff4-ac8c08a16e9d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Internet domowy, abonament komórkowy, telewizja | Orange Polska' /&gt;" SearchSteps="Selector" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="ef6beccaa9ad53f0eadceb3554fc931e.png" xmlns="">03L4q--7v_U6DBXdRV4XoNA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

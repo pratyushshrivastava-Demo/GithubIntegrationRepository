@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Informacja o plikach co…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "k1Q9ru2lQka5dJlKhkuEOw",
+  "Reference": "eC9NMaUDjESD5xJt_A5r6g/k1Q9ru2lQka5dJlKhkuEOw",
+  "ParentRef": "eC9NMaUDjESD5xJt_A5r6g/Kx_CDua8t0-KVamkkCrw4Q",
+  "Created": "2026-01-09T06:31:37.2225795Z",
+  "Updated": "2026-01-09T06:31:37.2225795Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

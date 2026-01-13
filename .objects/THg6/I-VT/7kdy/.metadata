@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Telefony i urządzenia w abonamencie lu",
+  "Type": "Screen",
+  "Id": "7kdyTtqFrUuKXWsrqA0FsA",
+  "Reference": "eC9NMaUDjESD5xJt_A5r6g/7kdyTtqFrUuKXWsrqA0FsA",
+  "ParentRef": "eC9NMaUDjESD5xJt_A5r6g/I-VTKOPV9UGX9Ja72tW12w",
+  "Created": "2026-01-11T04:32:26.1177484Z",
+  "Updated": "2026-01-11T04:32:26.1177484Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

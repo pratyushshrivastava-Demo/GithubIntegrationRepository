@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9CFX00iVSkWyNeXAwgahMw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="orange.pl/esklep/telefony-i-urzadzenia" DesignTimeRectangle="1612, 527, 92, 29" DesignTimeScaleFactor="1.5" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl type='' class='' isleaf='1' parentid='__next' tag='FONT' aaname='1908.00 ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:isleaf='fuzzy' fuzzylevel:isleaf='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="4f5e5578-f691-4b6f-8e3d-9351510b3c05" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Telefony i urządzenia w abonamencie lub bez umowy. | Sklep Orange Polska' /&gt;" SearchSteps="FuzzySelector" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1426, 530, 179, 25" FuzzySelectorArgument="&lt;webctrl type='' class='' isleaf='1' parentid='__next' tag='FONT' aaname='Total for the device' matching:class='fuzzy' fuzzylevel:class='0.0' matching:isleaf='fuzzy' fuzzylevel:isleaf='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Total for the device' /&gt;" Guid="0fa2dbbb-1010-4c27-a41e-c5229b65920e" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="fffeb2d478310f5db67b0600cc2a9759.png" xmlns="">0Cn97JMR4MECiTVGZsgzx2Q</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Internet, mobile subscription, phones,",
+  "Type": "Screen",
+  "Id": "Kx_CDua8t0-KVamkkCrw4Q",
+  "Reference": "eC9NMaUDjESD5xJt_A5r6g/Kx_CDua8t0-KVamkkCrw4Q",
+  "ParentRef": "eC9NMaUDjESD5xJt_A5r6g/I-VTKOPV9UGX9Ja72tW12w",
+  "Created": "2026-01-09T06:31:17.5826239Z",
+  "Updated": "2026-01-09T06:31:17.5826239Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

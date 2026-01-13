@@ -1,0 +1,402 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="376,259" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.Semantic.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="640.6666666666666,3876.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Internet, mobile subscription, phones," HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,3854" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" IsIncognito="True" ScopeGuid="d9c72bc9-c4f3-4385-b524-c8c9bcf3d896" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,3612" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="ProductName" />
+              <Variable x:TypeArguments="x:String" Name="CookieInformation" />
+              <Variable x:TypeArguments="x:String" Name="SomeTextInCart" />
+              <Variable x:TypeArguments="x:String" Name="DeleteConfirmationMessage" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'English'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_19" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d9c72bc9-c4f3-4385-b524-c8c9bcf3d896" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="orange.pl" DesignTimeRectangle="180, 18, 158, 48" ElementType="TabPage" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Translate this page?' role='alert' /&gt;&lt;ctrl name='Polish' role='page tab list' /&gt;&lt;ctrl name='English' role='page tab' /&gt;" Guid="1179204f-d084-4634-8b04-8a21dc2e25a8" InformativeScreenshot="ec158e84644358331271d7422c49000e.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Translate this page?' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text ''Informacja o plikach co…''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,143.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="d9c72bc9-c4f3-4385-b524-c8c9bcf3d896" TextString="[CookieInformation]" Version="V5">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="orange.pl" ContentHash="8wnqcVSuYEaTzl0KpyJLbA" DesignTimeRectangle="574, 549, 795, 39" DesignTimeScaleFactor="1.5" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H2' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H2' type='' class='' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="5af3e872-07bf-4ff7-9360-7c8d9d44a848" InformativeScreenshot="01ec9aa57dc4530a4c3f7923fab1ed9b.png" Reference="eC9NMaUDjESD5xJt_A5r6g/k1Q9ru2lQka5dJlKhkuEOw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Internet, mobile subscription, phones, television | Orange Polska' /&gt;" SearchSteps="Selector" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Zaakceptuj wszystkie''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d9c72bc9-c4f3-4385-b524-c8c9bcf3d896" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="orange.pl" ContentHash="5sWGoBGL3E2sI0gmvT-T2Q" DesignTimeRectangle="979, 881, 390, 60" DesignTimeScaleFactor="1.5" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='didomi-notice-agree-button' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='didomi-notice-agree-button' tag='BUTTON' type='' class='didomi-components-button didomi-button didomi-dismiss-button didomi-components-button--color didomi-button-highlight highlight-button' aaname='Zaakceptuj wszystkie' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Zaakceptuj wszystkie' /&gt;" Guid="74ca32c8-f6f7-485f-a11b-ca28ec03482a" InformativeScreenshot="454aba401304ca1594b8737a0595a337.png" Reference="eC9NMaUDjESD5xJt_A5r6g/IXHYArpWwEy6rblbnLtRrg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Internet, mobile subscription, phones, television | Orange Polska' /&gt;" SearchSteps="FuzzySelector" Version="V6">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="1059, 898, 229, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='didomi-notice-agree-button' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='didomi-notice-agree-button' tag='SPAN' type='' class='' aaname='Zaakceptuj wszystkie' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Zaakceptuj wszystkie' /&gt;" Guid="cdc33a1a-2a5d-4ec0-beee-2667f703ca97" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NHighlight Color="Gold" DisplayName="Highlight ''Store''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,196" sap2010:WorkflowViewState.IdRef="NHighlight_1" ScopeIdentifier="d9c72bc9-c4f3-4385-b524-c8c9bcf3d896" Version="V5">
+              <uix:NHighlight.Target>
+                <uix:TargetAnchorable BrowserURL="orange.pl" ContentHash="HcYfYHZ9H0O4CqhXsPjhPw" DesignTimeRectangle="551, 316, 61, 29" DesignTimeScaleFactor="1.5" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Store' tag='FONT' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Store' tag='FONT' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Store' /&gt;" Guid="774ab670-3dfc-41c5-98a5-8d0275fe2a78" InformativeScreenshot="97f4c07b6ebdad2eb5a4472459e1f426.png" Reference="eC9NMaUDjESD5xJt_A5r6g/Wu_jNYshv0m-qbqBf3MlJw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Internet, mobile subscription, phones, television | Orange Polska' /&gt;" SearchSteps="Selector" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NHighlight.Target>
+            </uix:NHighlight>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Store''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d9c72bc9-c4f3-4385-b524-c8c9bcf3d896" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="orange.pl" ContentHash="HcYfYHZ9H0O4CqhXsPjhPw" DesignTimeRectangle="551, 316, 61, 29" DesignTimeScaleFactor="1.5" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Store' tag='FONT' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Store' tag='FONT' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Store' /&gt;" Guid="774ab670-3dfc-41c5-98a5-8d0275fe2a78" InformativeScreenshot="97f4c07b6ebdad2eb5a4472459e1f426.png" Reference="eC9NMaUDjESD5xJt_A5r6g/Wu_jNYshv0m-qbqBf3MlJw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Internet, mobile subscription, phones, television | Orange Polska' /&gt;" SearchSteps="Selector" Version="V6">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                  </uix:TargetAnchorable.Anchors>
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Smartphones with subscr…''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d9c72bc9-c4f3-4385-b524-c8c9bcf3d896" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="orange.pl" ContentHash="mWsTrYSPrkC8N5H9bRbILw" DesignTimeRectangle="65, 494, 302, 25" DesignTimeScaleFactor="1.5" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Smartphones with subscription' tag='FONT' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Smartphones with subscription' tag='FONT' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Smartphones with subscription' /&gt;" Guid="bea4bcba-76bc-4fcf-b48a-42e8839148e9" InformativeScreenshot="e1e2871f051021159512b0bde4bd5ba8.png" Reference="eC9NMaUDjESD5xJt_A5r6g/3gzBf5dr20iPdSI4R__kAQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Internet, mobile subscription, phones, television | Orange Polska' /&gt;" SearchSteps="Selector" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Change offer''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d9c72bc9-c4f3-4385-b524-c8c9bcf3d896" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="orange.pl/esklep/smartfony" ContentHash="SEoWUQDWGkqJsac-5g_oXg" DesignTimeRectangle="1713, 611, 150, 45" DesignTimeScaleFactor="1.5" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Change offer' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Change offer' class='min-w-20 p-[7px] w-20 whitespace-nowrap css-b7nikl' tag='BUTTON' type='button' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Change offer' /&gt;" Guid="1b38a2f7-3da9-4608-b669-dc38dea50537" InformativeScreenshot="fb391112a4e6868c68441494731be301.png" Reference="eC9NMaUDjESD5xJt_A5r6g/RMj4Pwi8dkqtm5_wdj8DeQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Smartphones with or without a contract. | Orange Polska Store' /&gt;" SearchSteps="Selector" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NHighlight Color="Gold" DisplayName="Highlight ''With a mobile subscript…''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,196" sap2010:WorkflowViewState.IdRef="NHighlight_2" ScopeIdentifier="d9c72bc9-c4f3-4385-b524-c8c9bcf3d896" Version="V5">
+              <uix:NHighlight.Target>
+                <uix:TargetAnchorable BrowserURL="orange.pl/esklep/smartfony" ContentHash="mP0I-U4mXUe8_R_TwKfyeg" DesignTimeRectangle="71, 752, 300, 67" DesignTimeScaleFactor="1.5" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='With a mobile subscription' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='With a mobile subscription' tag='BUTTON' type='button' class='flex relative h-full min-h-9 w-full from-tablet:w-auto from-lg-desktop:min-w-[200px] from-tablet:flex-1 px-2 items-center justify-center text-size-12-bold text-center text-white bg-black rounded transition-colors cursor-pointer border-orange-dark border-2' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='With a mobile subscription' /&gt;" Guid="9014a9e3-9406-4536-bd65-6777237116e3" InformativeScreenshot="4948eee852d7273a6002b164b9c17462.png" Reference="eC9NMaUDjESD5xJt_A5r6g/HcOgOZnw_UCfM64Lef0HPw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Smartphones with or without a contract. | Orange Polska Store' /&gt;" SearchSteps="Selector" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NHighlight.Target>
+            </uix:NHighlight>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''With a mobile subscript…''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d9c72bc9-c4f3-4385-b524-c8c9bcf3d896" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="orange.pl/esklep/smartfony" ContentHash="mP0I-U4mXUe8_R_TwKfyeg" DesignTimeRectangle="71, 752, 300, 67" DesignTimeScaleFactor="1.5" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='With a mobile subscription' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='With a mobile subscription' tag='BUTTON' type='button' class='flex relative h-full min-h-9 w-full from-tablet:w-auto from-lg-desktop:min-w-[200px] from-tablet:flex-1 px-2 items-center justify-center text-size-12-bold text-center text-white bg-black rounded transition-colors cursor-pointer border-orange-dark border-2' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='With a mobile subscription' /&gt;" Guid="9014a9e3-9406-4536-bd65-6777237116e3" InformativeScreenshot="4948eee852d7273a6002b164b9c17462.png" Reference="eC9NMaUDjESD5xJt_A5r6g/HcOgOZnw_UCfM64Lef0HPw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Smartphones with or without a contract. | Orange Polska Store' /&gt;" SearchSteps="Selector" Version="V6">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                  </uix:TargetAnchorable.Anchors>
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NHighlight Color="Gold" DisplayName="Highlight ''I'm dialing a new number''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,196" sap2010:WorkflowViewState.IdRef="NHighlight_3" ScopeIdentifier="d9c72bc9-c4f3-4385-b524-c8c9bcf3d896" Version="V5">
+              <uix:NHighlight.Target>
+                <uix:TargetAnchorable BrowserURL="orange.pl/esklep/smartfony" ContentHash="chleS9eBgEKi30qvfQ0PcA" DesignTimeRectangle="417, 669, 300, 68" DesignTimeScaleFactor="1.5" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='I&amp;apos;m dialing a new number' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='I&amp;apos;m dialing a new number' tag='BUTTON' type='button' class='flex relative h-full min-h-9 w-full from-tablet:w-auto from-lg-desktop:min-w-[200px] from-tablet:flex-1 px-2 items-center justify-center text-size-12-bold text-center text-white bg-black rounded transition-colors cursor-pointer border-orange-dark border-2' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='I&amp;apos;m dialing a new number' /&gt;" Guid="76ef544d-fde0-4ecf-9f81-7596bc60d8dc" InformativeScreenshot="85c677c30f337086415039f0147884d8.png" Reference="eC9NMaUDjESD5xJt_A5r6g/4HMCgc4VA0qF4Ux0MzBP4Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Smartphones with or without a contract. | Orange Polska Store' /&gt;" SearchSteps="Selector" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NHighlight.Target>
+            </uix:NHighlight>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''I'm dialing a new number''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d9c72bc9-c4f3-4385-b524-c8c9bcf3d896" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="orange.pl/esklep/smartfony" ContentHash="chleS9eBgEKi30qvfQ0PcA" DesignTimeRectangle="417, 669, 300, 68" DesignTimeScaleFactor="1.5" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='I&amp;apos;m dialing a new number' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='I&amp;apos;m dialing a new number' tag='BUTTON' type='button' class='flex relative h-full min-h-9 w-full from-tablet:w-auto from-lg-desktop:min-w-[200px] from-tablet:flex-1 px-2 items-center justify-center text-size-12-bold text-center text-white bg-black rounded transition-colors cursor-pointer border-orange-dark border-2' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='I&amp;apos;m dialing a new number' /&gt;" Guid="76ef544d-fde0-4ecf-9f81-7596bc60d8dc" InformativeScreenshot="85c677c30f337086415039f0147884d8.png" Reference="eC9NMaUDjESD5xJt_A5r6g/4HMCgc4VA0qF4Ux0MzBP4Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Smartphones with or without a contract. | Orange Polska Store' /&gt;" SearchSteps="Selector" Version="V6">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                  </uix:TargetAnchorable.Anchors>
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NHighlight Color="Gold" DisplayName="Highlight ''24 months''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,196" sap2010:WorkflowViewState.IdRef="NHighlight_4" ScopeIdentifier="d9c72bc9-c4f3-4385-b524-c8c9bcf3d896" Version="V5">
+              <uix:NHighlight.Target>
+                <uix:TargetAnchorable BrowserURL="orange.pl/esklep/smartfony" ContentHash="ieZZPr2CE0uKJ5KzLURwtQ" DesignTimeRectangle="763, 669, 300, 68" DesignTimeScaleFactor="1.5" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='24 months' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='24 months' tag='BUTTON' type='button' class='flex relative h-full min-h-9 w-full from-tablet:w-auto from-lg-desktop:min-w-[200px] from-tablet:flex-1 px-2 items-center justify-center text-size-12-bold text-center text-white bg-black rounded transition-colors cursor-pointer border-orange-dark border-2' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='24 months' /&gt;" Guid="d39fa8e7-9004-4a38-811d-e1b4d0014cef" InformativeScreenshot="fa2a52bb3d1fbff3ced4d12863496d84.png" Reference="eC9NMaUDjESD5xJt_A5r6g/iexAPv7QlkqzETT1k2hVlw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Smartphones with or without a contract. | Orange Polska Store' /&gt;" SearchSteps="Selector" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NHighlight.Target>
+            </uix:NHighlight>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''24 months''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d9c72bc9-c4f3-4385-b524-c8c9bcf3d896" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="orange.pl/esklep/smartfony" ContentHash="ieZZPr2CE0uKJ5KzLURwtQ" DesignTimeRectangle="763, 669, 300, 68" DesignTimeScaleFactor="1.5" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='24 months' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='24 months' tag='BUTTON' type='button' class='flex relative h-full min-h-9 w-full from-tablet:w-auto from-lg-desktop:min-w-[200px] from-tablet:flex-1 px-2 items-center justify-center text-size-12-bold text-center text-white bg-black rounded transition-colors cursor-pointer border-orange-dark border-2' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='24 months' /&gt;" Guid="d39fa8e7-9004-4a38-811d-e1b4d0014cef" InformativeScreenshot="fa2a52bb3d1fbff3ced4d12863496d84.png" Reference="eC9NMaUDjESD5xJt_A5r6g/iexAPv7QlkqzETT1k2hVlw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Smartphones with or without a contract. | Orange Polska Store' /&gt;" SearchSteps="Selector" Version="V6">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                  </uix:TargetAnchorable.Anchors>
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NHighlight Color="Gold" DisplayName="Highlight ''Plan L''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,196" sap2010:WorkflowViewState.IdRef="NHighlight_5" ScopeIdentifier="d9c72bc9-c4f3-4385-b524-c8c9bcf3d896" Version="V5">
+              <uix:NHighlight.Target>
+                <uix:TargetAnchorable BrowserURL="orange.pl/esklep/smartfony" ContentHash="liwWaPgxZkeF8H7hU7HrTA" DesignTimeRectangle="1109, 917, 300, 67" DesignTimeScaleFactor="1.5" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Plan L' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Plan L' tag='BUTTON' type='button' class='flex relative h-full min-h-9 w-full from-tablet:w-auto from-lg-desktop:min-w-[200px] from-tablet:flex-1 px-2 items-center justify-center text-size-12-bold text-center text-white bg-black rounded transition-colors cursor-pointer border-orange-dark border-2' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Plan L' /&gt;" Guid="f1d9f88f-c5ab-4b1c-8995-8a42a23aba25" InformativeScreenshot="f18748c8f40ef54a2e0307df9dd2c449.png" Reference="eC9NMaUDjESD5xJt_A5r6g/URdv_o9IokuvtgQSgReaxA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Smartphones with or without a contract. | Orange Polska Store' /&gt;" SearchSteps="Selector" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NHighlight.Target>
+            </uix:NHighlight>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Plan L''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d9c72bc9-c4f3-4385-b524-c8c9bcf3d896" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="orange.pl/esklep/smartfony" ContentHash="liwWaPgxZkeF8H7hU7HrTA" DesignTimeRectangle="1109, 917, 300, 67" DesignTimeScaleFactor="1.5" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Plan L' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Plan L' tag='BUTTON' type='button' class='flex relative h-full min-h-9 w-full from-tablet:w-auto from-lg-desktop:min-w-[200px] from-tablet:flex-1 px-2 items-center justify-center text-size-12-bold text-center text-white bg-black rounded transition-colors cursor-pointer border-orange-dark border-2' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Plan L' /&gt;" Guid="f1d9f88f-c5ab-4b1c-8995-8a42a23aba25" InformativeScreenshot="f18748c8f40ef54a2e0307df9dd2c449.png" Reference="eC9NMaUDjESD5xJt_A5r6g/URdv_o9IokuvtgQSgReaxA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Smartphones with or without a contract. | Orange Polska Store' /&gt;" SearchSteps="Selector" Version="V6">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                  </uix:TargetAnchorable.Anchors>
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Choose''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d9c72bc9-c4f3-4385-b524-c8c9bcf3d896" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="orange.pl/esklep/smartfony" ContentHash="zniH-dHTcE6Q4sFPoRefUg" DesignTimeRectangle="1455, 957, 240, 75" DesignTimeScaleFactor="1.5" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Choose' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Choose' tag='BUTTON' type='button' class='text-size-14 h-8 w-[160px] css-2mvp4n' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Choose' /&gt;" Guid="33b67c6d-3a14-41e2-81fe-73dfff3569e9" InformativeScreenshot="f13481b9b10613dfdfa21ec97f45a46e.png" Reference="eC9NMaUDjESD5xJt_A5r6g/lXEWsMxc_k2z3Pp9FrWgCQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Smartphones with or without a contract. | Orange Polska Store' /&gt;" SearchSteps="Selector" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <ui:FindChildren Children="{x:Null}" DisplayName="Find Children 'DIV'" Filter="&lt;webctrl /&gt;" sap:VirtualizedContainerService.HintSize="416,132.66666666666666" sap2010:WorkflowViewState.IdRef="FindChildren_1" Scope="FIND_CHILDREN">
+              <ui:FindChildren.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="28b998ab-a0a5-4ae1-9915-582eb46896aa" InformativeScreenshot="23988b2610be347cb7d61ccec95d9375" Selector="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='13' parentid='__next' tag='DIV' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:FindChildren.Target>
+            </ui:FindChildren>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1150" BrowserType="Chrome" ContentHash="CLk9nUShoEKlAwLm9k-XZg" IconBase64="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" sap2010:WorkflowViewState.IdRef="TargetApp_1" InformativeScreenshot="3a0b1135b1a9426e91fa81f67b47a500.jpg" Reference="eC9NMaUDjESD5xJt_A5r6g/Kx_CDua8t0-KVamkkCrw4Q" Selector="&lt;html app='chrome.exe' title='Internet, mobile subscription, phones, television | Orange Polska' /&gt;" Url="https://www.orange.pl/" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

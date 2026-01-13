@@ -1,0 +1,14 @@
+﻿{
+  "Name": "With a mobile subscript…",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "HcOgOZnw_UCfM64Lef0HPw",
+  "Reference": "eC9NMaUDjESD5xJt_A5r6g/HcOgOZnw_UCfM64Lef0HPw",
+  "ParentRef": "eC9NMaUDjESD5xJt_A5r6g/Kx_CDua8t0-KVamkkCrw4Q",
+  "Created": "2026-01-10T13:00:09.5524073Z",
+  "Updated": "2026-01-10T13:00:09.5524073Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

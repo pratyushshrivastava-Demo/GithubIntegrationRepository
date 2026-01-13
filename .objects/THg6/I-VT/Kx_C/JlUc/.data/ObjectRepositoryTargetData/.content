@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_ML02pSxHUKWojY8nlYN_w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="orange.pl/marketing/B2C/7bfb8d18-cf78-4316-85ec-b9e5d707b301.lUGYPGNVkn1Polz4NYlkun9O2h2q4QxD9qRHUEbokCs-UoGekkT88BChHhbqsQvNcQ60ugyoRw9Ewk1QB1vPz3qFrPrex5zc3TK8MczD2lU=/SIMPLE_SELECT_OFFER_STEP" DesignTimeRectangle="1600, 1063, 77, 29" DesignTimeScaleFactor="1.5" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Return' tag='FONT' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Return' tag='FONT' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Return' /&gt;" Guid="777efe62-b31c-47d1-8770-c9fe2a451768" ScopeSelectorArgument="&lt;html app='chrome.exe' title='orange.pl/marketing/B2C/7bfb8d18-cf78-4316-85ec-b9e5d707b301.lUGYPGNVkn1Polz4NYlkun9O2h2q4QxD9qRHUEbokCs-UoGekkT88BChHhbqsQvNcQ60ugyoRw9Ewk1QB1vPz3qFrPrex5zc3TK8MczD2lU=/SIMPLE_SELECT_OFFER_STEP' /&gt;" SearchSteps="Selector" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="762f2f113226729023c69622f0696303.png" xmlns="">0AxW1RuteoEmsuVETY99F3w</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

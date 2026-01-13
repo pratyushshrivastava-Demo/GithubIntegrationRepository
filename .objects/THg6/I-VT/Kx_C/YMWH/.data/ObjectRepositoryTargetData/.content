@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="P5IEe_J0Y0y-N_G4EVB-RA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="orange.pl" DesignTimeRectangle="201, 31, 129, 30" ElementVisibilityArgument="Interactive" Guid="982b7a4f-0d9f-4912-8e2f-d2763d3bbce5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIEAAAAeCAYAAAALkH3GAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAM3SURBVGhD7Zkxa+MwGIb7Tzx7MtwYbuzUDFdKM9RQmuEIHIEjw9GhoRBCSZccxaX4hhQKpuByOBwOByKDCYiCf9Z72JFlx1ZK41xaN/mGZ4gkf1akJ9InZU/TNBC7zV6+gNg9SAKCJCB2UYJTG0EYIgwD2KeiTK+jc+PAuWljP9/+BbpPUZwQ4VO3UPeReFsJLt35oC3BvVQ8879RSZDpl3uheGYJJEEZqirBqQX2HCKcuejuK55ZAklQBimBi26+7q1QSVASkqAMJEElqaQE5l0wbze10TzowB6Lz2GIYDLCeWHJNmD2HfiBmJRnDvbYQ+MsmfDM+1QSqMo0DcZJD84kAI+2ChE3mFhoifqsBPpxDy7jaT/HFlqf8v2sJtWWYMbA+Hzw+UwMeASzYMr2Opp3LK2L284ngzMGnn+fasIVZfqZDZbE5AzeowcW9yGNJSX468OP23HwqL/Jc+MeaorvVzXeSQIV6eBKCcIQ7FcLRlyuo973xKRyjL6JmEeWnKy0rQb9oIMRK8ZWTbiqrOOIX/WfQebYqKP+vS0FlBKEHN5VA3pcbqD9kPTfx+CzYhwqRrUlmI3QXojRhSvaJyeJxq1YBYKRXKYT9B9O6ZWgfS8k4B4GJ0bxuyysBBYOs3VyG1o/73gL3kmCV24HUzuz7EeYsKeLEiQTwZ1OIU46uatLoO134Wa3oMCH02+ipqfxlyeGiawkQZFNSnDfLsRZS4IIvY7WdSbhjGA2mkIEkqAMG5BA7t35JVnTUOt7xfepJlxVlsP4asEXSZ//sx6XkQRl2IAE6b7P4V2baWJ4PIAnM/XVJWhd9mAuHPGa8t3sthGXkQRleDExTAdzFQk07RDDSSZG5jjJnrzS24HcZqY+vDFLj37PPoZHi21IglXYiATR3t1A78FHkFzqcAa3b8JYIycwr6J7gfTyJ76A+m2hc6DL95IEH4GL120/u84WS6DjPEkamYVGoZ5I2AIJTAwfbJx/yV7oGDCvk9vFKJs/VDxHJGyFBEmeEN/dz3j6h0+U2E2G8lxPqNkCCWpoXjnwp5kkTmT1TpQcFtoTebZAAmJdSAKCJCBIAoIkICJIAgL/ALYEqEllQsVDAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Translate this page?' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="40, 96, 393, 21" FullSelectorArgument="&lt;ctrl name='Translate this page?' role='alert' /&gt;&lt;ctrl idx='8' role='pane' /&gt;" Guid="d692c027-e029-4a40-8c44-66db7d5eecb1" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="48ed219486e7af7e53b39711d91680d6.png" xmlns="">0ipsJ9XHuvEuyaYlgQIC9Kg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
