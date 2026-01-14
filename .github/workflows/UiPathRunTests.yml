@@ -1,0 +1,69 @@
+name: UiPathRunTests
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      # Checkout repository
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      # Print workspace info
+      - name: Print Working Directory
+        shell: pwsh
+        run: |
+          Get-Location
+          Get-ChildItem
+
+      # Download and extract UiPath CLI
+      - name: Get UiPath CLI
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Path C:\uipathcli -Force
+          Invoke-WebRequest `
+            -Uri "https://uipath.pkgs.visualstudio.com/Public.Feeds/_packaging/UiPath-Official/nuget/v3/flat2/UiPath.CLI.Windows/23.2.8467.25277/UiPath.CLI.Windows.23.2.8467.25277.nupkg" `
+            -OutFile "C:\UiPath.CLI.Windows.zip"
+          Expand-Archive `
+            -Path "C:\UiPath.CLI.Windows.zip" `
+            -DestinationPath "C:\uipathcli" `
+            -Force
+
+      # Package, Deploy and Run Tests
+      - name: Pack and Run Tests
+        shell: pwsh
+        run: |
+          $outputDir = Join-Path $env:GITHUB_WORKSPACE "Output"
+
+          # Package UiPath project
+          & "C:\uipathcli\tools\uipcli.exe" package pack `
+            "$env:GITHUB_WORKSPACE\project.json" `
+            --output "$outputDir" `
+            --autoVersion
+
+          # Deploy package to Orchestrator
+          & "C:\uipathcli\tools\uipcli.exe" package deploy `
+            "$outputDir" `
+            "https://staging.uipath.com" `
+            "${{ secrets.TENANT_NAME }}" `
+            -A "${{ secrets.ACCOUNT_NAME }}" `
+            -I "${{ secrets.OAUTH_CLIENT_ID }}" `
+            -S "${{ secrets.OAUTH_CLIENT_SECRET }}" `
+            -o "${{ secrets.ORCH_FOLDER }}" `
+            --applicationScope "OR.Folders OR.BackgroundTasks OR.TestSets OR.TestSetExecutions OR.TestSetSchedules OR.Settings.Read OR.Monitoring OR.Robots.Read OR.Machines.Read OR.Execution OR.Assets OR.Users.Read OR.Jobs"
+
+          # Run Test Set
+          & "C:\uipathcli\tools\uipcli.exe" test run `
+            "https://staging.uipath.com" `
+            "${{ secrets.TENANT_NAME }}" `
+            -A "${{ secrets.ACCOUNT_NAME }}" `
+            -I "${{ secrets.OAUTH_CLIENT_ID }}" `
+            -S "${{ secrets.OAUTH_CLIENT_SECRET }}" `
+            -o "${{ secrets.ORCH_FOLDER }}" `
+            -s "OrangePolandTestSet" `
+            --applicationScope "OR.Folders OR.BackgroundTasks OR.TestSets OR.TestSetExecutions OR.TestSetSchedules OR.Settings.Read OR.Monitoring OR.Robots.Read OR.Machines.Read OR.Execution OR.Assets OR.Users.Read OR.Jobs"
