@@ -49,16 +49,25 @@ jobs:
       - name: Pack, Deploy and Run Tests
         shell: pwsh
         run: |
+          $uipcli = Get-ChildItem -Path C:\uipathcli -Recurse -Filter uipcli.exe | Select-Object -First 1
+
+          if (-not $uipcli) {
+            Write-Error "UiPath CLI not found"
+            exit 1
+          }
+
+          Write-Host "Using UiPath CLI at: $($uipcli.FullName)"
+
           $outputDir = Join-Path $env:GITHUB_WORKSPACE "Output"
 
           # Package UiPath project
-          & "C:\uipathcli\tools\uipcli.exe" package pack `
+          & $uipcli.FullName package pack `
             "$env:GITHUB_WORKSPACE\project.json" `
             --output "$outputDir" `
             --autoVersion
 
           # Deploy package to Orchestrator
-          & "C:\uipathcli\tools\uipcli.exe" package deploy `
+          & $uipcli.FullName package deploy `
             "$outputDir" `
             "https://staging.uipath.com" `
             "${{ secrets.TENANT_NAME }}" `
@@ -69,7 +78,7 @@ jobs:
             --applicationScope "OR.Folders OR.BackgroundTasks OR.TestSets OR.TestSetExecutions OR.TestSetSchedules OR.Settings.Read OR.Monitoring OR.Robots.Read OR.Machines.Read OR.Execution OR.Assets OR.Users.Read OR.Jobs"
 
           # Run Test Set
-          & "C:\uipathcli\tools\uipcli.exe" test run `
+          & $uipcli.FullName test run `
             "https://staging.uipath.com" `
             "${{ secrets.TENANT_NAME }}" `
             -A "${{ secrets.ACCOUNT_NAME }}" `
