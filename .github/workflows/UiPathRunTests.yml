@@ -14,6 +14,17 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
+      # Install .NET 6 runtime (required for UiPath CLI)
+      - name: Install .NET 6 Runtime
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '6.0.x'
+
+      # Verify installed .NET runtimes
+      - name: Verify .NET version
+        shell: pwsh
+        run: dotnet --list-runtimes
+
       # Print workspace info
       - name: Print Working Directory
         shell: pwsh
@@ -35,7 +46,7 @@ jobs:
             -Force
 
       # Package, Deploy and Run Tests
-      - name: Pack and Run Tests
+      - name: Pack, Deploy and Run Tests
         shell: pwsh
         run: |
           $outputDir = Join-Path $env:GITHUB_WORKSPACE "Output"
