@@ -38,7 +38,7 @@ jobs:
         run: |
           New-Item -ItemType Directory -Path C:\uipathcli -Force
           Invoke-WebRequest `
-            -Uri "https://uipath.pkgs.visualstudio.com/Public.Feeds/_packaging/UiPath-Official/nuget/v3/flat2/UiPath.CLI.Windows/23.2.8467.25277/UiPath.CLI.Windows.23.2.8467.25277.nupkg" `
+            -Uri "https://uipath.pkgs.visualstudio.com/Public.Feeds/_packaging/UiPath-Official/nuget/v3/flat2/UiPath.CLI.Windows/25.10.5/UiPath.CLI.Windows.25.10.5.nupkg" `
             -OutFile "C:\UiPath.CLI.Windows.zip"
           Expand-Archive `
             -Path "C:\UiPath.CLI.Windows.zip" `
